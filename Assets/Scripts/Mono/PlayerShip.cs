@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerShip : MonoBehaviour
@@ -11,6 +9,8 @@ public class PlayerShip : MonoBehaviour
 
     Rigidbody rb = null;
     Transform t = null;
+    [SerializeField] ParticleSystem thruster;
+    [SerializeField] ParticleSystem[] backThrusters;
 
     private void Awake()
     {
@@ -31,11 +31,47 @@ public class PlayerShip : MonoBehaviour
 
     private void MoveShip()
     {
-        float moveMagnitude = Input.GetAxisRaw("Vertical") * moveSpeed;
+        float vertAxis = Input.GetAxis("Vertical");
+        if (vertAxis > 0)
+        {
+            if(!thruster.isPlaying)
+                thruster.Play();
+            StopEmitting(backThrusters);
+        }
+        else if (vertAxis == 0)
+        {
 
-        Vector3 moveVector = t.forward * moveMagnitude;
+            thruster.Stop();
+            StopEmitting(backThrusters);
+        }
+        else if (vertAxis < 0)
+        {
+            thruster.Stop();
+            StartEmitting(backThrusters);
+        }    
+
+        float moveMagnitude = vertAxis * moveSpeed;
+
+        Vector3 moveVector = t.forward * moveMagnitude + rb.velocity/4;
 
         rb.AddForce(moveVector);
+    }
+
+    private void StopEmitting(ParticleSystem[] particleSystems)
+    {
+        foreach (ParticleSystem system in particleSystems)
+        {
+            system.Stop();
+        }
+    }
+
+    private void StartEmitting(ParticleSystem[] particleSystems)
+    {
+        foreach (ParticleSystem system in particleSystems)
+        {
+            if (!system.isPlaying)
+                system.Play();
+        }
     }
 
     private void TurnShip()
