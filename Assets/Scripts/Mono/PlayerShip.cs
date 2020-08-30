@@ -4,23 +4,19 @@
 public class PlayerShip : MonoBehaviour
 {
 
-    [SerializeField] float moveSpeed = 12f;
-    [SerializeField] float turnSpeed = 3f;
+    [SerializeField] private float moveSpeed = 12f;
+    [SerializeField] private float turnSpeed = 3f;
+   
+    [SerializeField] private ParticleSystem thruster;
+    [SerializeField] private ParticleSystem[] backThrusters;
 
-    Rigidbody rb = null;
-    Transform t = null;
-    [SerializeField] ParticleSystem thruster;
-    [SerializeField] ParticleSystem[] backThrusters;
+    private Rigidbody rb = null;
+    private Transform t = null;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         t = transform;
-    }
-
-    private void Start()
-    {
-        
     }
 
     private void FixedUpdate()
@@ -29,12 +25,25 @@ public class PlayerShip : MonoBehaviour
         TurnShip();
     }
 
+    #region MoveShip
+
     private void MoveShip()
     {
         float vertAxis = Input.GetAxis("Vertical");
+        CoordinateThrusters(vertAxis);
+
+        float moveMagnitude = vertAxis * moveSpeed;
+
+        Vector3 moveVector = t.forward * moveMagnitude + rb.velocity/4;
+
+        rb.AddForce(moveVector);
+    }
+
+    private void CoordinateThrusters(float vertAxis)
+    {
         if (vertAxis > 0)
         {
-            if(!thruster.isPlaying)
+            if (!thruster.isPlaying)
                 thruster.Play();
             StopEmitting(backThrusters);
         }
@@ -48,13 +57,7 @@ public class PlayerShip : MonoBehaviour
         {
             thruster.Stop();
             StartEmitting(backThrusters);
-        }    
-
-        float moveMagnitude = vertAxis * moveSpeed;
-
-        Vector3 moveVector = t.forward * moveMagnitude + rb.velocity/4;
-
-        rb.AddForce(moveVector);
+        }
     }
 
     private void StopEmitting(ParticleSystem[] particleSystems)
@@ -73,6 +76,8 @@ public class PlayerShip : MonoBehaviour
                 system.Play();
         }
     }
+
+    #endregion
 
     private void TurnShip()
     {
