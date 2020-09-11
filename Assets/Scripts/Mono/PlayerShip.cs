@@ -7,16 +7,25 @@ public class PlayerShip : MonoBehaviour
     [SerializeField] private float moveSpeed = 12f;
     [SerializeField] private float turnSpeed = 3f;
    
+    [Header("Particles")]
     [SerializeField] private ParticleSystem thruster;
     [SerializeField] private ParticleSystem[] backThrusters;
+
+    [SerializeField] private TrailRenderer boosters = null;
 
     private Rigidbody rb = null;
     private Transform t = null;
 
+    public bool BoostersState
+    {
+        get { return boosters.enabled; }
+        set { boosters.enabled = value; }
+    }
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         t = transform;
+        BoostersState = false;
     }
 
     private void FixedUpdate()
@@ -25,7 +34,7 @@ public class PlayerShip : MonoBehaviour
         TurnShip();
     }
 
-    #region MoveShip
+    #region Ship Movement
 
     private void MoveShip()
     {
@@ -77,8 +86,6 @@ public class PlayerShip : MonoBehaviour
         }
     }
 
-    #endregion
-
     private void TurnShip()
     {
         float turnMagnitude = Input.GetAxisRaw("Horizontal") * turnSpeed;
@@ -88,9 +95,15 @@ public class PlayerShip : MonoBehaviour
         rb.MoveRotation(rb.rotation * turnOffset);
     }
 
+    #endregion
+
     public void Kill()
     {
         this.gameObject.SetActive(false);
     }
 
+    public void AddSpeed(float speedChange)
+    {
+        moveSpeed += speedChange;
+    }
 }
