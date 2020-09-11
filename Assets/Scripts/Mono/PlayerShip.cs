@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerShip : MonoBehaviour
@@ -13,6 +14,8 @@ public class PlayerShip : MonoBehaviour
 
     [SerializeField] private TrailRenderer boosters = null;
 
+
+    public UnityEvent onPlayerDeath;
     private Rigidbody rb = null;
     private Transform t = null;
 
@@ -100,6 +103,11 @@ public class PlayerShip : MonoBehaviour
     public void Kill()
     {
         this.gameObject.SetActive(false);
+        Destroy(this.gameObject);
+        if(onPlayerDeath != null)
+        {
+            onPlayerDeath.Invoke();
+        }
     }
 
     public void AddSpeed(float speedChange)
