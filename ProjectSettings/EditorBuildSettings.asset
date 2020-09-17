@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level01.unity
     guid: 7053ef0843f0bff47bff4fccbd7bc530
+  - enabled: 1
+    path: Assets/Scenes/WinOrLoss.unity
+    guid: 806da89c3b85d5c4881ae8d69e76fee3
   m_configObjects: {}

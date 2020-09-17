@@ -14,8 +14,8 @@ public class PlayerShip : MonoBehaviour
 
     [SerializeField] private TrailRenderer boosters = null;
 
-
     public UnityEvent onPlayerDeath;
+
     private Rigidbody rb = null;
     private Transform t = null;
 

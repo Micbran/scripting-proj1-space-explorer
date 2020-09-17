@@ -15,7 +15,9 @@ public class CameraFollow : MonoBehaviour
     private void LateUpdate()
     {
         if(objectToFollow != null)
+        {
             this.transform.position = objectToFollow.position + objectOffset;
+        }
     }
 
     public void ChangeFollow(Transform newFollow)

@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using UnityEngine;
+using System;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Manager<GameManager>
 {
 
     [SerializeField] private GameObject playerPrefab;
@@ -11,7 +12,21 @@ public class GameManager : MonoBehaviour
 
     private CameraFollow playerCamera;
 
-    private void Awake()
+    private int playerScore = 0;
+    private EndState endGameState;
+
+    public int PlayerScore
+    {
+        get { return playerScore; }
+        set { playerScore = Math.Max(0, value); }
+    }
+
+    public EndState EndGameState
+    {
+        get { return endGameState; }
+    }
+
+    private void Start()
     {
         playerCamera = FindObjectOfType<CameraFollow>();
     }
@@ -28,11 +43,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    #region Scene Control
+
     private void ReloadLevel()
     {
-        int activeSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(activeSceneIndex);
+        SceneManager.LoadScene("Level01");
     }
+
+    #endregion
+
+
+    #region Event Callbacks
 
     public void OnPlayerDeath()
     {
@@ -51,5 +72,19 @@ public class GameManager : MonoBehaviour
         playerCamera.ChangeFollow(newPlayer.transform);
 
         yield break;
+    }
+
+    public void OnPlayerWinOrLoss(EndState endState)
+    {
+        endGameState = endState;
+        SceneManager.LoadScene("WinOrLoss");
+    }
+
+    #endregion
+
+    public enum EndState
+    {
+        GAME_LOST = 0,
+        GAME_WON = 1
     }
 }
