@@ -13,6 +13,8 @@ public class PlayerShip : MonoBehaviour
     [SerializeField] private ParticleSystem[] backThrusters;
 
     [SerializeField] private TrailRenderer boosters = null;
+    
+    [SerializeField] private ParticleSystem deathParticlesSystem;
 
     public UnityEvent onPlayerDeath;
 
@@ -102,12 +104,22 @@ public class PlayerShip : MonoBehaviour
 
     public void Kill()
     {
+        PlayDeathParticles();
+        
         this.gameObject.SetActive(false);
         Destroy(this.gameObject);
         if(onPlayerDeath != null)
         {
             onPlayerDeath.Invoke();
         }
+    }
+
+    private void PlayDeathParticles()
+    {
+        ParticleSystem explosion = Instantiate(deathParticlesSystem);
+        explosion.transform.position = t.position;
+        explosion.Play();
+        Destroy(explosion.gameObject, 2f);
     }
 
     public void AddSpeed(float speedChange)

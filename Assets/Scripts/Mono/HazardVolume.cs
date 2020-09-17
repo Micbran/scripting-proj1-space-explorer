@@ -8,6 +8,7 @@ public class HazardVolume : MonoBehaviour
 
         if(playerShip != null)
         {
+            SoundManager.Instance.PlaySoundEffect(SoundEffect.PlayerDeath);
             playerShip.Kill();
         }
     }

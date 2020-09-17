@@ -5032,20 +5032,11 @@ MonoBehaviour:
   - {fileID: 2451913435164910484}
   - {fileID: 2451913434140862253}
   boosters: {fileID: 2451913435148033078}
+  deathParticlesSystem: {fileID: 5890821505019463586, guid: 58cee70761c443b40845e641fa1aa98b,
+    type: 3}
   onPlayerDeath:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: OnPlayerDeath
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
       - m_Target: {fileID: 0}
         m_MethodName: OnPlayerDeath
         m_Mode: 1

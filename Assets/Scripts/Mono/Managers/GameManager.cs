@@ -77,6 +77,15 @@ public class GameManager : Manager<GameManager>
     public void OnPlayerWinOrLoss(EndState endState)
     {
         endGameState = endState;
+        switch (endGameState)
+        {
+            case EndState.GAME_LOST:
+                SoundManager.Instance.PlaySoundEffect(SoundEffect.GameOver);
+                break;
+            case EndState.GAME_WON:
+                SoundManager.Instance.PlaySoundEffect(SoundEffect.Win);
+                break;
+        }
         SceneManager.LoadScene("WinOrLoss");
     }
 

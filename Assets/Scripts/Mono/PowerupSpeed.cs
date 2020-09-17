@@ -27,6 +27,7 @@ public class PowerupSpeed : MonoBehaviour
 
         if(player != null && !powerActive)
         {
+            SoundManager.Instance.PlaySoundEffect(SoundEffect.SpeedPowerupCollect);
             StartCoroutine(PowerupEffect(player));
         }
     }
@@ -42,6 +43,7 @@ public class PowerupSpeed : MonoBehaviour
         yield return new WaitForSeconds(powerupDuration);
 
         DeactivatePowerup(player);
+        SoundManager.Instance.PlaySoundEffect(SoundEffect.SpeedpowerupExpire);
         EnableRendering();
 
         powerActive = false;
