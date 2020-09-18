@@ -1,17 +1,20 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class PowerupSpeed : MonoBehaviour
+public class PowerupInvincibility : MonoBehaviour
 {
     [Header("Powerup Settings")]
-    [SerializeField] private float speedIncreaseAmount = 20;
     [SerializeField] private float powerupDuration = 5;
+    [SerializeField] private Color invincibilityColor;
 
     [Header("Setup")]
     [SerializeField] private GameObject visualsToDeactivate = null;
 
     Collider colliderToDeactivate = null;
     bool powerActive = false;
+
+    private MeshRenderer[] renderSave;
 
     private void Awake()
     {
@@ -26,7 +29,7 @@ public class PowerupSpeed : MonoBehaviour
 
         if (player != null && !powerActive)
         {
-            SoundManager.Instance.PlaySoundEffect(SoundEffect.SpeedPowerupCollect);
+            SoundManager.Instance.PlaySoundEffect(SoundEffect.InvincbilityPowerupCollect);
             StartCoroutine(PowerupEffect(player));
         }
     }
@@ -42,7 +45,6 @@ public class PowerupSpeed : MonoBehaviour
         yield return new WaitForSeconds(powerupDuration);
 
         DeactivatePowerup(player);
-        SoundManager.Instance.PlaySoundEffect(SoundEffect.SpeedPowerupExpire);
         EnableRendering();
 
         powerActive = false;
@@ -50,19 +52,19 @@ public class PowerupSpeed : MonoBehaviour
 
     private void ActivatePowerup(PlayerShip player)
     {
-        if(player != null)
+        if (player != null)
         {
-            player.AddSpeed(speedIncreaseAmount);
-            player.BoostersState = true;
+            player.InvincibleState = true;
+            player.MakeColor(invincibilityColor);
         }
     }
 
     private void DeactivatePowerup(PlayerShip player)
     {
-        if(player != null)
+        if (player != null)
         {
-            player.AddSpeed(-1*speedIncreaseAmount);
-            player.BoostersState = false;
+            player.InvincibleState = false;
+            player.ReturnToDefaultColor();
         }
     }
 
@@ -77,5 +79,4 @@ public class PowerupSpeed : MonoBehaviour
         colliderToDeactivate.enabled = true;
         visualsToDeactivate.SetActive(true);
     }
-
 }

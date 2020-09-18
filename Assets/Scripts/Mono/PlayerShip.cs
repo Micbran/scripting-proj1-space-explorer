@@ -4,9 +4,10 @@ using UnityEngine.Events;
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerShip : MonoBehaviour
 {
-
+    [Header("Defaults")]
     [SerializeField] private float moveSpeed = 12f;
     [SerializeField] private float turnSpeed = 3f;
+    [SerializeField] private Color defaultColor = Color.white;
    
     [Header("Particles")]
     [SerializeField] private ParticleSystem thruster;
@@ -21,14 +22,31 @@ public class PlayerShip : MonoBehaviour
     private Rigidbody rb = null;
     private Transform t = null;
 
+    private MeshRenderer[] childRenderers = null;
+
+    private bool invincibleState = false;
+
     public bool BoostersState
     {
         get { return boosters.enabled; }
         set { boosters.enabled = value; }
     }
+
+    public bool InvincibleState
+    {
+        get { return invincibleState; }
+        set { invincibleState = value; }
+    }
+
+    public MeshRenderer[] ChildRenderers
+    {
+        get { return childRenderers; }
+    }
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        childRenderers = GetComponentsInChildren<MeshRenderer>();
         t = transform;
         BoostersState = false;
     }
@@ -104,6 +122,11 @@ public class PlayerShip : MonoBehaviour
 
     public void Kill()
     {
+        if(invincibleState)
+        {
+            return;
+        }
+        SoundManager.Instance.PlaySoundEffect(SoundEffect.PlayerDeath);
         PlayDeathParticles();
         
         this.gameObject.SetActive(false);
@@ -125,5 +148,21 @@ public class PlayerShip : MonoBehaviour
     public void AddSpeed(float speedChange)
     {
         moveSpeed += speedChange;
+    }
+
+    public void MakeColor(Color newColor)
+    {
+        foreach(MeshRenderer mesh in ChildRenderers)
+        {
+            mesh.material.color = newColor;
+        }
+    }
+
+    public void ReturnToDefaultColor()
+    {
+        foreach (MeshRenderer mesh in ChildRenderers)
+        {
+            mesh.material.color = defaultColor;
+        }
     }
 }

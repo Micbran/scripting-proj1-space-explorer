@@ -14,6 +14,7 @@ public enum SoundEffect
     GameOver,
     PlayerDeath,
     SpeedPowerupCollect,
-    SpeedpowerupExpire,
+    SpeedPowerupExpire,
+    InvincbilityPowerupCollect,
     Win
 }
