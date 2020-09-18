@@ -6,6 +6,11 @@ public class WinVolume : MonoBehaviour
     [System.Serializable] public class EndStateEvent : UnityEvent<GameManager.EndState> { } 
     [SerializeField] public EndStateEvent onPlayerWin;
 
+    private void Awake()
+    {
+        onPlayerWin.AddListener(GameManager.Instance.OnPlayerWinOrLoss);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         PlayerShip playerShip = other.gameObject.GetComponent<PlayerShip>();

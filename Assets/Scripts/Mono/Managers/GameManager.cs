@@ -3,22 +3,34 @@ using UnityEngine;
 using System;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using System.Threading;
 
 public class GameManager : Manager<GameManager>
 {
 
     [SerializeField] private GameObject playerPrefab;
     [SerializeField] private Transform playerSpawnPoint;
+    [SerializeField] private UITimer timerScript;
+
+    [SerializeField] public CoinPickup.IntEvent onScoreUpdate;
 
     private CameraFollow playerCamera;
 
     private int playerScore = 0;
     private EndState endGameState;
 
+    private float saveTime = 0;
+
     public int PlayerScore
     {
         get { return playerScore; }
         set { playerScore = Math.Max(0, value); }
+    }
+
+    public float EndGameTime
+    {
+        get { return saveTime; }
+        set { saveTime = value; }
     }
 
     public EndState EndGameState
@@ -29,6 +41,7 @@ public class GameManager : Manager<GameManager>
     private void Start()
     {
         playerCamera = FindObjectOfType<CameraFollow>();
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     void Update()
@@ -47,6 +60,7 @@ public class GameManager : Manager<GameManager>
 
     private void ReloadLevel()
     {
+        StopAllCoroutines();
         SceneManager.LoadScene("Level01");
     }
 
@@ -76,6 +90,7 @@ public class GameManager : Manager<GameManager>
 
     public void OnPlayerWinOrLoss(EndState endState)
     {
+        EndGameTime = timerScript.TimerValue;
         endGameState = endState;
         switch (endGameState)
         {
@@ -87,6 +102,27 @@ public class GameManager : Manager<GameManager>
                 break;
         }
         SceneManager.LoadScene("WinOrLoss");
+    }
+
+    public void OnCoinCollected(int pointValue)
+    {
+        playerScore += pointValue;
+        if(onScoreUpdate != null)
+        {
+            onScoreUpdate.Invoke(playerScore);
+        }
+    }
+
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if(scene.name.Equals("Level01"))
+        {
+            timerScript = FindObjectOfType<UITimer>();
+            playerSpawnPoint = GameObject.FindGameObjectWithTag("PlayerSpawnpoint").transform;
+            UIScore scoreScript = FindObjectOfType<UIScore>();
+            onScoreUpdate.AddListener(scoreScript.OnScoreUpdate);
+            playerScore = 0;
+        }
     }
 
     #endregion

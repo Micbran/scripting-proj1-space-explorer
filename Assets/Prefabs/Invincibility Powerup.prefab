@@ -62,6 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupDuration: 5
+  invincibilityColor: {r: 0.8301887, g: 0.78506166, b: 0.16838734, a: 0}
   visualsToDeactivate: {fileID: 5247776532680443807}
 --- !u!136 &8820185572070917571
 CapsuleCollider:

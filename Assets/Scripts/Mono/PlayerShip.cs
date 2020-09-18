@@ -49,6 +49,7 @@ public class PlayerShip : MonoBehaviour
         childRenderers = GetComponentsInChildren<MeshRenderer>();
         t = transform;
         BoostersState = false;
+        // onPlayerDeath.AddListener(GameManager.Instance.OnPlayerDeath);
     }
 
     private void FixedUpdate()
@@ -131,10 +132,8 @@ public class PlayerShip : MonoBehaviour
         
         this.gameObject.SetActive(false);
         Destroy(this.gameObject);
-        if(onPlayerDeath != null)
-        {
-            onPlayerDeath.Invoke();
-        }
+
+        GameManager.Instance.OnPlayerDeath();
     }
 
     private void PlayDeathParticles()
