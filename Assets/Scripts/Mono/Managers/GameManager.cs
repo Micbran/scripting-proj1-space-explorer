@@ -121,6 +121,9 @@ public class GameManager : Manager<GameManager>
             playerSpawnPoint = GameObject.FindGameObjectWithTag("PlayerSpawnpoint").transform;
             UIScore scoreScript = FindObjectOfType<UIScore>();
             onScoreUpdate.AddListener(scoreScript.OnScoreUpdate);
+            timerScript.onPlayerLoss.AddListener(OnPlayerWinOrLoss);
+            WinVolume winVol = FindObjectOfType<WinVolume>();
+            winVol.onPlayerWin.AddListener(OnPlayerWinOrLoss);
             playerScore = 0;
         }
     }

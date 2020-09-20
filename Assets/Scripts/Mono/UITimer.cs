@@ -6,6 +6,7 @@ public class UITimer : MonoBehaviour
 {
     [SerializeField] private float defaultTime;
     [SerializeField] private Text timeTextField;
+    [SerializeField] public WinVolume.EndStateEvent onPlayerLoss;
 
     private float currentTime;
 
@@ -26,5 +27,12 @@ public class UITimer : MonoBehaviour
     {
         currentTime -= Time.deltaTime;
         timeTextField.text = String.Format("{0:0.##}", currentTime);
+        if(currentTime <= 0)
+        {
+            if (onPlayerLoss != null)
+            {
+                onPlayerLoss.Invoke(GameManager.EndState.GAME_LOST);
+            }
+        }
     }
 }
