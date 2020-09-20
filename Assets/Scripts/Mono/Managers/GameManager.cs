@@ -124,6 +124,7 @@ public class GameManager : Manager<GameManager>
             timerScript.onPlayerLoss.AddListener(OnPlayerWinOrLoss);
             WinVolume winVol = FindObjectOfType<WinVolume>();
             winVol.onPlayerWin.AddListener(OnPlayerWinOrLoss);
+            playerCamera = FindObjectOfType<CameraFollow>();
             playerScore = 0;
         }
     }
