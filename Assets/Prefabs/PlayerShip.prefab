@@ -5009,7 +5009,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8542481, y: 0.19211555, z: 0.9602817}
+  m_Size: {x: 0.8542481, y: 0.5, z: 0.9602817}
   m_Center: {x: 0.032603353, y: 0.067346096, z: 0.014500558}
 --- !u!114 &2451913435117321425
 MonoBehaviour:
@@ -5025,6 +5025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   turnSpeed: 3
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
   thruster: {fileID: 2451913435395802569}
   backThrusters:
   - {fileID: 2451913435455515412}
@@ -5036,18 +5037,7 @@ MonoBehaviour:
     type: 3}
   onPlayerDeath:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: OnPlayerDeath
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!1 &2451913435148033072
 GameObject:
   m_ObjectHideFlags: 0
