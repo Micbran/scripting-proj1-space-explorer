@@ -7,7 +7,7 @@ public class CoinPickup : MonoBehaviour
     [System.Serializable] public class IntEvent : UnityEvent<int> {};
     [SerializeField] public IntEvent coinCollected;
 
-    private void Awake()
+    private void Start()
     {
         coinCollected.AddListener(GameManager.Instance.OnCoinCollected);
     }

@@ -135,6 +135,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -212,6 +217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -542,6 +552,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -583,7 +598,7 @@ PrefabInstance:
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -625,6 +640,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -870,12 +890,12 @@ Transform:
   - {fileID: 7678947}
   - {fileID: 64248239}
   - {fileID: 827918152}
-  - {fileID: 1934415866}
   - {fileID: 1697916186}
   - {fileID: 828407971}
   - {fileID: 46399835}
   - {fileID: 1281440222}
   - {fileID: 942870950}
+  - {fileID: 1934415866}
   - {fileID: 161552074}
   - {fileID: 211249149}
   - {fileID: 273156000}
@@ -983,6 +1003,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -1065,6 +1090,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -1162,6 +1192,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -1244,6 +1279,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -1533,6 +1573,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -1712,6 +1757,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -1885,6 +1935,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -1979,6 +2034,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -2056,6 +2116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -2232,6 +2297,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -2372,6 +2442,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -2466,6 +2541,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -2537,6 +2617,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -2701,6 +2786,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -2992,6 +3082,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -3256,6 +3351,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -3472,6 +3572,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -3543,6 +3648,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -3623,6 +3733,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -3795,6 +3910,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -3892,6 +4012,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -4593,6 +4718,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -4634,7 +4764,7 @@ PrefabInstance:
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -4670,6 +4800,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -4714,7 +4849,7 @@ PrefabInstance:
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -4854,6 +4989,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -4954,6 +5094,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -5030,6 +5175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -5392,6 +5542,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -5433,7 +5588,7 @@ PrefabInstance:
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -5474,6 +5629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -5658,6 +5818,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -5899,6 +6064,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -5990,6 +6160,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -6092,6 +6267,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -6189,6 +6369,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -6362,6 +6547,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -6515,6 +6705,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -6615,6 +6810,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -6697,6 +6897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -6797,6 +7002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -6973,6 +7183,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -7014,7 +7229,7 @@ PrefabInstance:
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 61
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -7225,6 +7440,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -7305,6 +7525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -7382,6 +7607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -7570,6 +7800,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -7743,6 +7978,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -7814,6 +8054,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -7894,6 +8139,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -8169,6 +8419,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -8246,6 +8501,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -8329,6 +8589,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -8406,6 +8671,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -8665,6 +8935,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -8759,6 +9034,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -8800,7 +9080,7 @@ PrefabInstance:
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -8937,6 +9217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -9042,6 +9327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -9136,6 +9426,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -9225,6 +9520,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -9618,6 +9918,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -9718,6 +10023,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -9789,6 +10099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -9872,6 +10187,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -9913,7 +10233,7 @@ PrefabInstance:
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162479, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -10045,6 +10365,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -10122,6 +10447,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
@@ -10317,6 +10647,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
       propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 351810646}
@@ -10414,6 +10749,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
+        type: 3}
+      propertyPath: coinCollected.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159313793674162478, guid: 71464283326caf040a90b9f6e840a81d,
         type: 3}
